@@ -1,0 +1,5 @@
+number = (1, 2, 3, 4, 5, 6, 7) 
+print("The given numbers: ", number)
+Output = map(lambda a: a + a + a, number) 
+print("List of Tripled number from the Input:")
+print(list(Output))
